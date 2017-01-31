@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Trabalho-CardView-RobertoMenegais</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="tipo_todos">Todos</string>
+
+    <string name="tipo_corrente">Corrente</string>
+    <string name="tipo_poupanca">Poupança</string>
+    <string name="tipo_salario">Salário</string>
+
+    <string name="informacoes_conta">Informações da conta: </string>
+    <string name="conta_cpf">CPF: </string>
+    <string name="conta_limite">Limite: </string>
+    <string name="conta_saldo">Saldo: </string>
+    <string name="conta_nome">Nome: </string>
+    <string name="conta_sobrenome">Sobrenome: </string>
+
+
+    <string name="conta_hint_cpf">Insira o CPF: </string>
+    <string name="conta_hint_limite">Insira o Limite: </string>
+    <string name="conta_hint_saldo">Insira o Saldo: </string>
+    <string name="conta_hint_nome">Insira o Nome: </string>
+    <string name="conta_hint_sobrenome">Insira o Sobrenome: </string>
+
+    <string name="latitude">Latitude: </string>
+    <string name="longitude">Longitude: </string>
+
+
+    <string name="video">Video: </string>
+    <string name="video_hint">Clique para obter a URL do video: </string>
+
+
+    <string name="title_fragmentcontas">Lista de contas</string>
+    <string name="title_fragment_detalheconta">Detalhes da conta</string>
+    <string name="title_fragment_edicaoconta">Edição da conta</string>
+    <string name="title_fragment_novoconta">Nova conta</string>
+
+  
+    <string name="nav_listcontas">Lista de contas</string>
+    <string name="nav_sobre">Sobre</string>
+    <string name="nav_configuracoes">Configurações</string>
+    <string name="direitos_autorais">IFSul Bagé - todos os direitos reservados.</string>
+
+    <string name="tabs_todos">Todos</string>
+    <string name="tabs_corrente">Corrente</string>
+    <string name="tabs_poupanca">Poupança</string>
+    <string name="tabs_salario">Salário</string>
+
+
+
+    <string name="action_pesquisar">Pesquisar</string>
+    <string name="hint_pesquisar">Nome do conta</string>
+    <string name="action_novo">Novo</string>
+
+    <string name="action_salvar">Salvar</string>
+    <string name="action_excluir">Excluir</string>
+
+    <string name="action_editar">Editar</string>
+
+   
+    <string name="val_dadosinputs">Você deve inserir pelo menos o nome do conta.</string>
+
+    <string name="alert_title_wait">Aguarde</string>
+    <string name="alert_message_processando">Processando ...</string>
+    <string name="alertdialog_button_ok">OK</string>
+    <string name="alert_title_resultadodaoperacao">Resultado da Operação</string>
+    <string name="alert_message_realizadacomsucesso">Realizada com sucesso.</string>
+    <string name="alert_message_erroaorealizaroperacao">Erro ao realizar a operação. Por favor, avise o desenvolvedor.</string>
+
+</resources>

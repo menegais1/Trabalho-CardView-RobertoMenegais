@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_fragmentnovoconta_0"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="6dp"
+                android:clickable="false"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="3dp"
+                card_view:cardElevation="6dp">
+
+
+                <ImageView
+                    android:id="@+id/imageview_card_fragmentnovoconta"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="fill_vertical|fill_horizontal|center"
+                    android:clickable="true"
+                    android:contentDescription="image"
+                    card_view:srcCompat="@drawable/ic_menu_camera" />
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_fragmentnovoconta_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:clickable="false"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="3dp"
+                card_view:cardElevation="6dp">
+
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radiobutton_fragmentnovoconta_corrente"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tipo_corrente" />
+
+                    <RadioButton
+                        android:id="@+id/radiobutton_fragmentnovoconta_poupanca"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tipo_poupanca" />
+
+                    <RadioButton
+                        android:id="@+id/radiobutton_fragmentnovoconta_salario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tipo_salario" />
+                </RadioGroup>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_fragmentnovoconta_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:clickable="false"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="3dp"
+                card_view:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/conta_nome" />
+
+                    <EditText
+                        android:id="@+id/edittext_nome_fragmentnovoconta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/conta_hint_nome"
+                        android:inputType="textPersonName" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/conta_sobrenome" />
+
+                    <EditText
+                        android:id="@+id/edittext_sobrenome_fragmentnovoconta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/conta_hint_sobrenome"
+                        android:inputType="textPersonName" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/conta_cpf" />
+
+                    <EditText
+                        android:id="@+id/edittext_cpf_fragmentnovoconta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/conta_hint_cpf"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/conta_limite" />
+
+                    <EditText
+                        android:id="@+id/edittext_limite_fragmentnovoconta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/conta_hint_limite"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/conta_saldo" />
+
+                    <EditText
+                        android:id="@+id/edittext_saldo_fragmentnovoconta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/conta_hint_saldo"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
