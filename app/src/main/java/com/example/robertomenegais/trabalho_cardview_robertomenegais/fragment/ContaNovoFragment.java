@@ -50,6 +50,7 @@ public class ContaNovoFragment extends BaseFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_novoconta, container, false);
+        conta = new Conta();
         foto = (ImageView) view.findViewById(R.id.imageview_card_fragmentnovoconta);
 
 
